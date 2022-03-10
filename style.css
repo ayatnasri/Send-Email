@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box-container{
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height: 650px;
+    background-color: rgb(35, 128, 221);
+    border-radius: 7px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.7rem;
+}
+
+.box-title{
+    padding: 5px;
+    margin-top: 0px;
+    text-shadow: 7px 7px 7px rgba(0, 0, 0, 0.7);
+    
+}
+.box-title p{
+    font-size: 3rem;
+    font-weight: 700;
+    color: rgb(238, 148, 75);
+    text-transform: capitalize;
+}
+
+/*
+.box-container>.box-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    width: 350px;
+    height: 300px;
+    background-color: aquamarine;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+*/
+.box-container-image{
+    background: url(ss.jpg);
+    border-radius: 50%;
+    width: 240px;
+    height: 240px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px;
+    transition: width 2s, height 2s, transform 7s;
+}
+.box-container-image:hover{
+    transform: rotate(360deg);
+}
+.box-container h1{
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans';
+}
+table {
+    filter: drop-shadow(0px 10px 20px rgba(33, 33, 33, 0.597));
+}
+table ,td{
+    background-color: rgb(230, 234, 238);
+    padding: 10px;
+    border-radius: 10px;
+    width: 90%;
+    height: 40px;
+}
+#mailTo, #mailSubject{
+    width: 300px;
+    height: 40px;
+    border-radius: 3px;
+    background-color: rgb(180, 207, 238);
+    padding: 7px;
+}
+
+textarea{
+    width: 300px;
+    height: 70px;
+    border-radius: 3px;
+    background-color: rgb(180, 207, 238);
+    padding: 7px;
+}
+.click-send{
+    width: 70px;
+    height: 35px;
+    background-color: rgb(46, 93, 146);
+    color: white;
+    margin-left: 40%;
+    border-radius: 7px;
+    padding: 7px;
+    text-transform: uppercase;
+}
+::placeholder {
+    font-family: 'Gill Sans';
+    font-size: 1rem;
+    color: black;
+    padding: 5px;
+    text-transform: capitalize;
+}
+input:hover{
+    background-color: rgb(21, 59, 102);
+}
+

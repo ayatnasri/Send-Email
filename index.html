@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--The title----->
+    <title>Sending an email</title>
+
+    <!--Javascript Code----->
+    <script src="https://kit.fontawesome.com/da7445b25b.js" crossorigin="anonymous"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    
+    <script src="main.js"></script>
+
+     <!--CSS Code----->
+     <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--HTML Code----->
+    <div class="box-container">
+        <div class="box-title">
+            <p>Send an email </p>
+            <a href="" style="width: 50px; height: 50px; color: black;"><i class="fa-solid fa-hand-wave"></i></a>
+        </div>
+        <div class="box-container-image"></div>
+        <table>
+            <tr>
+                <td><input type="text" id="mailTo" placeholder="To"></td>
+            </tr>
+            <tr>
+                <td><input type="text" id="mailSubject" placeholder="title"></td>
+            </tr>
+            <tr>
+                <td><textarea type="text" id="mailBody" placeholder="Massege"></textarea></td>
+            </tr>
+            <tr>
+                <td><input class="click-send" type="button" onclick="sendEmail();" value="Send"></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
